@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JSONCraft</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header class="header">
+<div class="brand">JSONCraft</div>
+<div class="tools">
+<button id="sample">Sample</button>
+<button id="format">Format</button>
+<button id="clear">Clear</button>
+<button id="theme">Theme</button>
+</div>
+</header>
+
+<div class="grid">
+
+<div class="box">
+<div class="boxhead">JSON Input</div>
+<textarea id="json"></textarea>
+<div class="status" id="status"></div>
+</div>
+
+<div class="box">
+<div class="boxhead">Output</div>
+
+<div class="tabs">
+<button data-tab="ts" class="active">TypeScript</button>
+<button data-tab="python">Python</button>
+<button data-tab="graphql">GraphQL</button>
+<button data-tab="sql">SQL</button>
+</div>
+
+<pre id="output"></pre>
+
+<div class="actions">
+<button id="convert">Convert</button>
+<button id="copy">Copy</button>
+<button id="download">Download</button>
+</div>
+
+</div>
+
+</div>
+
+<footer class="foot">JSONCraft</footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
